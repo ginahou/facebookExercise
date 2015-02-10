@@ -13,6 +13,13 @@
 		7686BB151A84404B00205444 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7686BB141A84404B00205444 /* Images.xcassets */; };
 		7686BB181A84404B00205444 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7686BB161A84404B00205444 /* LaunchScreen.xib */; };
 		7686BB241A84404B00205444 /* facebookExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7686BB231A84404B00205444 /* facebookExerciseTests.swift */; };
+		7686BB2E1A84406700205444 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7686BB2D1A84406700205444 /* Common.swift */; };
+		7686BB301A8442BE00205444 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7686BB2F1A8442BE00205444 /* loginViewController.swift */; };
+		D4662C841A89DD6600ED3A02 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662C831A89DD6600ED3A02 /* FeedViewController.swift */; };
+		D4662C861A89DEE600ED3A02 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662C851A89DEE600ED3A02 /* SettingsViewController.swift */; };
+		D4662C881A89E15400ED3A02 /* statusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662C871A89E15400ED3A02 /* statusViewController.swift */; };
+		D4662C8A1A89E28B00ED3A02 /* notificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662C891A89E28B00ED3A02 /* notificationsViewController.swift */; };
+		D4662C8C1A89E41A00ED3A02 /* requestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4662C8B1A89E41A00ED3A02 /* requestsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		7686BB1D1A84404B00205444 /* facebookExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7686BB221A84404B00205444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7686BB231A84404B00205444 /* facebookExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookExerciseTests.swift; sourceTree = "<group>"; };
+		7686BB2D1A84406700205444 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7686BB2F1A8442BE00205444 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		D4662C831A89DD6600ED3A02 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = ../FeedViewController.swift; sourceTree = "<group>"; };
+		D4662C851A89DEE600ED3A02 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		D4662C871A89E15400ED3A02 /* statusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = statusViewController.swift; path = ../statusViewController.swift; sourceTree = "<group>"; };
+		D4662C891A89E28B00ED3A02 /* notificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = notificationsViewController.swift; path = ../notificationsViewController.swift; sourceTree = "<group>"; };
+		D4662C8B1A89E41A00ED3A02 /* requestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = requestsViewController.swift; path = ../requestsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +91,19 @@
 		7686BB0A1A84404B00205444 /* facebookExercise */ = {
 			isa = PBXGroup;
 			children = (
+				D4662C8B1A89E41A00ED3A02 /* requestsViewController.swift */,
+				D4662C891A89E28B00ED3A02 /* notificationsViewController.swift */,
+				D4662C871A89E15400ED3A02 /* statusViewController.swift */,
+				D4662C851A89DEE600ED3A02 /* SettingsViewController.swift */,
+				D4662C831A89DD6600ED3A02 /* FeedViewController.swift */,
+				7686BB2D1A84406700205444 /* Common.swift */,
 				7686BB0D1A84404B00205444 /* AppDelegate.swift */,
 				7686BB0F1A84404B00205444 /* ViewController.swift */,
 				7686BB111A84404B00205444 /* Main.storyboard */,
 				7686BB141A84404B00205444 /* Images.xcassets */,
 				7686BB161A84404B00205444 /* LaunchScreen.xib */,
 				7686BB0B1A84404B00205444 /* Supporting Files */,
+				7686BB2F1A8442BE00205444 /* loginViewController.swift */,
 			);
 			path = facebookExercise;
 			sourceTree = "<group>";
@@ -212,8 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7686BB301A8442BE00205444 /* loginViewController.swift in Sources */,
 				7686BB101A84404B00205444 /* ViewController.swift in Sources */,
+				D4662C841A89DD6600ED3A02 /* FeedViewController.swift in Sources */,
+				7686BB2E1A84406700205444 /* Common.swift in Sources */,
 				7686BB0E1A84404B00205444 /* AppDelegate.swift in Sources */,
+				D4662C861A89DEE600ED3A02 /* SettingsViewController.swift in Sources */,
+				D4662C881A89E15400ED3A02 /* statusViewController.swift in Sources */,
+				D4662C8C1A89E41A00ED3A02 /* requestsViewController.swift in Sources */,
+				D4662C8A1A89E28B00ED3A02 /* notificationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = facebookExercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = facebookExercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +435,7 @@
 				7686BB291A84404B00205444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7686BB2A1A84404B00205444 /* Build configuration list for PBXNativeTarget "facebookExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +444,7 @@
 				7686BB2C1A84404B00205444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
